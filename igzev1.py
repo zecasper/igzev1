@@ -22,6 +22,7 @@ ___logo___ = (f"""{H} ___ ___ ___ __  __ ___ _   _ __  __
 {H}[{P}>{H}]{P} AUTHOR : ZEEEE
 {H}[{P}>{H}]{P} IG : @MHMDAZIZ04
 {H}[{P}>{H}]{P} FB : fb.com/Zeeee.utama
+{H}[{P}>{H}]{P} MASA AKTIF : UNLIMITED
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
 # Login Cookie
