@@ -19,9 +19,9 @@ ___logo___ = (f"""{U} ___ ___ ___ __  __ ___ _   _ __  __
 {U}|  _/   / _|| |\/| || || |_| | |\/| |
 {U}|_| |_|_\___|_|  |_|___|\___/|_|  |_|
 {K}[{P}•{K}]{P}——————————————————————————————
-{H}[{P}>{H}]{P} AUTHOR : ZEEEE
-{H}[{P}>{H}]{P} IG : {B} @MHMDAZIZ04
-{H}[{P}>{H}]{P} FB : fb.com/Zeeee.utama
+{H}[{P}>{H}]{P} AUTHOR : {M}ZEEEE
+{H}[{P}>{H}]{P} IG : {M} @MHMDAZIZ04
+{H}[{P}>{H}]{P} FB : {M} fb.com/Zeeee.utama
 {H}[{P}>{H}]{P} MASA AKTIF :{M} UNLIMITED
 {K}[{P}•{K}]{P}——————————————————————————————
 """)
