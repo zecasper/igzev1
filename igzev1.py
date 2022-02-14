@@ -14,9 +14,9 @@ B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
 
 # Logo
-___logo___ = (f"""{T} 🅉🄴🄴🄴🄴🄱
+___logo___ = (f"""{T} 🅉🄴🄴🄴🄴🄱🔰
 {K}[{P}•{K}]{P}——————————————————————————————
-{H}[{P}>{H}]{P} AUTHOR : {M}ZEEEE
+{H}[{P}>{H}]{P} AUTHOR : {M}ZEEEE🤡
 {H}[{P}>{H}]{P} IG : {M} @MHMDAZIZ04
 {H}[{P}>{H}]{P} FB : {M} fb.com/Zeeee.utama
 {H}[{P}>{H}]{P} MASA AKTIF :{M} UNLIMITED
@@ -81,10 +81,10 @@ def ___menu___():
     print(f"{B}[{P}6{B}]{P} DUMP USERNAME DARI SEARCH")
     print(f"{B}[{P}7{B}]{P} DUMP USERNAME DARI QUERY")
     print(f"{B}[{P}8{B}]{P} DUMP USER DARI EMAIL")
-    print(f"{B}[{P}9{B}]{P} MULAI CRACK {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}9{B}]{P} MULAI CRACK {P}[{H}FAST{P}]{H}")
     print(f"{B}[{P}0{B}]{P} LIHAT HASIL CRACK")
     print(f"{B}[{P}A{B}]{P} KELUAR {P}[{M}EXIT{P}]{M}\n")
-    ___pilih = input(f"{H}[{P}?{H}]{P} Pilih :{K} ")
+    ___pilih = input(f"{H}[{P}?{H}]{P} PILIH :{K} ")
     if ___pilih in ['1','01']:
         ___mengikuti___()
     elif ___pilih in ['2','02']:
@@ -107,7 +107,7 @@ def ___menu___():
         try:
             print(f"\n{H}[{P}1{H}]{P} LIHAT HASIL {H}Ok")
             print(f"{H}[{P}2{H}]{P} LIHAT HASIL {M}Cp")
-            print(f"{H}[{P}3{H}]{P} Kembali\n")
+            print(f"{H}[{P}3{H}]{P} KEMBALI\n")
             ___hasil = input(f"{B}[{P}?{B}]{P} Pilih :{K} ")
             if ___hasil in ['1','01']:
                 print(f"{P} ");os.system('cat Results/Ok.txt')
