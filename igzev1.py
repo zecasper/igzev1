@@ -373,7 +373,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✔{B}]{P} STATUS :{H} LIVE ZEEEEB     ")
+                        print(f"\r{B}[{P}✔{B}]{P} STATUS :{H} LIVE ZEEEEB!     ")
                         print(f"{B}[{P}>{B}]{P} USERNAME :{H} {uid}")
                         print(f"{B}[{P}>{B}]{P} PASSWORD :{H} {pw}")
                         print(f"{B}[{P}>{B}]{P} FOLLOWER :{H} {follower}")
@@ -391,7 +391,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✘{B}]{M} STATUS :{M} CHECKPOINT    ")
+                        print(f"\r{B}[{P}✘{B}]{M} STATUS :{M} CHECKPOINT BRO!   ")
                         print(f"{B}[{P}>{B}]{M} USERNAME :{M} {uid}")
                         print(f"{B}[{P}>{B}]{M} PASSWORD :{M} {pw}")
                         print(f"{B}[{P}>{B}]{M} FOLLOWER :{M} {follower}")
@@ -404,7 +404,7 @@ class ___crack___:
                     else:
                         continue
             self.kill +=1
-            print(f"{P}[{P}Crack{P}]{P} {self.kill}/{str(len(user))} Cp:-{len(self.cp)} Ok:-{len(self.ok)}          ", end='\r')
+            print(f"{P}[{P}Crack{P}]{P} {self.kill}/{str(len(user))} {M}Cp:-{len(self.cp)} {H}Ok:-{len(self.ok)}          ", end='\r')
         except (ConnectionError):
             print(f"{P}[{K}!{P}]{K} Koneksi Error               ", end='\r');sleep(7);__main__(self, user, uid, pwx)
         except:__main__(self, user, uid, pwx)
