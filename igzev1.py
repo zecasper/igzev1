@@ -64,26 +64,26 @@ def ___menu___():
         os.system('clear')
         print(___logo___)
         ___roz = requests.get(f'https://i.instagram.com/api/v1/users/{open("Data/user.txt","r").read()}/info/', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': open('Data/coki.txt','r').read()}).json()['user']
-        print(f"{B}[{P}*{B}]{P} Welcome :{K} {___roz['full_name']}")
-        print(f"{B}[{P}*{B}]{P} User :{K} {___roz['username']}")
-        print(f"{B}[{P}*{B}]{P} Follower :{K} {___roz['follower_count']}\n")
+        print(f"{B}[{P}*{B}]{P} WELCOME :{M} {___roz['full_name']}")
+        print(f"{B}[{P}*{B}]{P} USER VIP :{M} {___roz['username']}")
+        print(f"{B}[{P}*{B}]{P} FOLLOWER :{M} {___roz['follower_count']}\n")
     except (IOError):
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");sleep(3);___login___()
     except (KeyError):
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{P}[{K}!{P}]{K} Koneksi Error")
-    print(f"{B}[{P}1{B}]{P} Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{P} Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{P} Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{P} Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{P} Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{P} Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{P} Dump Username Dari Query")
-    print(f"{B}[{P}8{B}]{P} Dump User Dari Email")
-    print(f"{B}[{P}9{B}]{P} Mulai Crack {P}[{H}Fast{P}]{H}")
-    print(f"{B}[{P}0{B}]{P} Lihat Hasil Crack")
-    print(f"{B}[{P}A{B}]{P} Keluar {P}[{M}Exit{P}]{M}\n")
+    print(f"{B}[{P}1{B}]{P} DUMP USERNAME DARI MENGIKUTI")
+    print(f"{B}[{P}2{B}]{P} DUMP USERNAME DARI PENGIKUT")
+    print(f"{B}[{P}3{B}]{P} DUMP USERNAME DARI ACTIVITY")
+    print(f"{B}[{P}4{B}]{P} DUMP USERNAME DARI BERANDA")
+    print(f"{B}[{P}5{B}]{P} DUMP USERNAME DARI HASTAG")
+    print(f"{B}[{P}6{B}]{P} DUMP USERNAME DARI SEARCH")
+    print(f"{B}[{P}7{B}]{P} DUMP USERNAME DARI QUERY")
+    print(f"{B}[{P}8{B}]{P} DUMP USER DARI EMAIL")
+    print(f"{B}[{P}9{B}]{P} MULAI CRACK {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}0{B}]{P} LIHAT HASIL CRACK")
+    print(f"{B}[{P}A{B}]{P} KELUAR {P}[{M}EXIT{P}]{M}\n")
     ___pilih = input(f"{H}[{P}?{H}]{P} Pilih :{K} ")
     if ___pilih in ['1','01']:
         ___mengikuti___()
@@ -105,8 +105,8 @@ def ___menu___():
         ___proxy___()
     elif ___pilih in ['0','00']:
         try:
-            print(f"\n{H}[{P}1{H}]{P} Lihat Hasil Ok")
-            print(f"{H}[{P}2{H}]{P} Lihat Hasil Cp")
+            print(f"\n{H}[{P}1{H}]{P} LIHAT HASIL {H}Ok")
+            print(f"{H}[{P}2{H}]{P} LIHAT HASIL {M}Cp")
             print(f"{H}[{P}3{H}]{P} Kembali\n")
             ___hasil = input(f"{B}[{P}?{B}]{P} Pilih :{K} ")
             if ___hasil in ['1','01']:
@@ -127,7 +127,7 @@ def ___mengikuti___():
     try:
         ___user = input(f"\n{H}[{P}?{H}]{P} User :{K} ")
         if ___user[:1] in ['1','2','3','4','5','6','7','8','9','0']:
-            exit(f"{P}[{M}!{P}]{M} Gunakan Username")
+            exit(f"{P}[{M}!{P}]{M} GUNAKAN USERNAME")
         else:
             ___roz = requests.get(f'https://www.instagram.com/{___user}/?__a=1', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': open('Data/coki.txt','r').read()}).json()['graphql']['user']
             print(f"{H}[{P}?{H}]{P} Name :{K} {___roz['full_name']}\n")
