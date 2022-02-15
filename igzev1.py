@@ -321,8 +321,8 @@ class ___crack___:
         except (IOError):
             exit(f"{P}[{M}!{P}]{M} File Tidak Ada")
         try:
-            print(f"\n{H}[{P}•{H}]{P} Hasil Ok Tersimpan Di Results/Ok.txt")
-            print(f"{H}[{P}•{H}]{P} Hasil Cp Tersimpan Di Results/Cp.txt\n")
+            print(f"\n{H}[{P}•{H}]{P} Hasil {H}Ok Tersimpan Di Results/Ok.txt")
+            print(f"{H}[{P}•{H}]{P} Hasil {M}Cp Tersimpan Di Results/Cp.txt\n")
             with ThreadPoolExecutor(max_workers=30) as (___hayuk):
                 for ___user in self.___file:
                     username, nama = ___user.split('<=>')
