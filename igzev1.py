@@ -373,7 +373,7 @@ class ___crack___:
                             follower = ('-')
                             following = ('-')
                         except:pass
-                        print(f"\r{B}[{P}✔{B}]{P} STATUS :{H} LIVE ZEEEEB!     ")
+                        print(f"\r{B}[{P}✔{B}]{P} STATUS :{H} 🔰LIVE ZEEEEB!     ")
                         print(f"{B}[{P}>{B}]{P} USERNAME :{H} {uid}")
                         print(f"{B}[{P}>{B}]{P} PASSWORD :{H} {pw}")
                         print(f"{B}[{P}>{B}]{P} FOLLOWER :{H} {follower}")
