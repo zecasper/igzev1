@@ -14,7 +14,7 @@ B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
 
 # Logo
-___logo___ = (f"""{T} 🔰🅉🄴🄴🄴🄴🄱
+___logo___ = (f"""{T} W E L C O M E 🅉🄴🄴🄴🄴🄱
 {K}[{P}•{K}]{P}——————————————————————————————
 {H}[{P}>{H}]{P} AUTHOR : {M}ZEEEE
 {H}[{P}>{H}]{P} IG : {M} @MHMDAZIZ04
@@ -64,8 +64,8 @@ def ___menu___():
         os.system('clear')
         print(___logo___)
         ___roz = requests.get(f'https://i.instagram.com/api/v1/users/{open("Data/user.txt","r").read()}/info/', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': open('Data/coki.txt','r').read()}).json()['user']
-        print(f"{B}[{P}*{B}]{P} WELCOME :{M} {___roz['full_name']}")
-        print(f"{B}[{P}*{B}]{P} USER VIP :{M} {___roz['username']}")
+        print(f"{B}[{P}*{B}]{P} USER VIP :{M} {___roz['full_name']}")
+        print(f"{B}[{P}*{B}]{P} USERNAME :{M} {___roz['username']}")
         print(f"{B}[{P}*{B}]{P} FOLLOWER :{M} {___roz['follower_count']}\n")
     except (IOError):
         print(f"{P}[{M}!{P}]{M} Cookie Invalid");sleep(3);___login___()
