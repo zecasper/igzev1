@@ -308,10 +308,10 @@ class ___crack___:
         self.kill = 0
         self.ok = []
         self.cp = []
-        print(f"\n{H}[{P}1{H}]{P} Gunakan Password {H}[{K}nama, nama123, nama12345{H}]{K}")
-        print(f"{H}[{P}2{H}]{P} Gunakan Password {H}[{K}nama, nama123, nama1234, nama12345{H}]{K}")
-        print(f"{H}[{P}3{H}]{P} Gunakan Password {H}[{K}nama, nama123, nama1234, nama12345, nama123456{H}]{K}")
-        print(f"{H}[{P}4{H}]{P} Gunakan Password Manual {H}[{K}>5{H}]{K}\n")
+        print(f"\n{H}[{P}1{H}]{P} {M}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama12345{H}]{K}")
+        print(f"{H}[{P}2{H}]{P} {M}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama1234, nama12345{H}]{K}")
+        print(f"{H}[{P}3{H}]{P} {M}GUNAKAN PASSWORD  {H}[{K}nama, nama123, nama1234, nama12345, nama123456{H}]{K}")
+        print(f"{H}[{P}4{H}]{P} {M}GUNAKAN PASSWORD MANUAL {H}[{K}>5{H}]{K}\n")
         ___pilih = input(f"{B}[{P}?{B}]{P} Pilih :{H} ")
         if ___pilih in ['4','04']:
             pwx = input(f"{B}[{P}?{B}]{P} Password :{H} ").split(',')
